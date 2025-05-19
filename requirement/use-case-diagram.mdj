@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "swe",
+	"name": "swe-requirement",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -9,7 +9,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "requirement",
+			"name": "use-case",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -17,7 +17,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "UseCaseDiagram1",
+					"name": "UseCaseDiagram",
 					"ownedViews": [
 						{
 							"_type": "UMLActorView",
@@ -79,7 +79,7 @@
 											"top": 32,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -269,7 +269,7 @@
 											"top": -32,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -459,7 +459,7 @@
 											"top": -112,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -649,7 +649,7 @@
 											"top": -96,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1018,7 +1018,7 @@
 											"top": 54.5,
 											"width": 62,
 											"height": 13,
-											"text": "회원 가입"
+											"text": "Sign Up"
 										},
 										{
 											"_type": "LabelView",
@@ -1031,7 +1031,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1212,7 +1212,7 @@
 											"top": 207,
 											"width": 62,
 											"height": 13,
-											"text": "로그인"
+											"text": "Login"
 										},
 										{
 											"_type": "LabelView",
@@ -1225,7 +1225,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1406,7 +1406,7 @@
 											"top": 142,
 											"width": 62,
 											"height": 13,
-											"text": "로그아웃"
+											"text": "Logout"
 										},
 										{
 											"_type": "LabelView",
@@ -1419,7 +1419,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1596,11 +1596,11 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 129.67724609375,
+											"left": 142.67724609375,
 											"top": 262,
-											"width": 62,
+											"width": 124,
 											"height": 13,
-											"text": "자전거 등록"
+											"text": "Bicycle Registration"
 										},
 										{
 											"_type": "LabelView",
@@ -1613,7 +1613,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1630,9 +1630,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 124.67724609375,
+									"left": 137.67724609375,
 									"top": 255,
-									"width": 72,
+									"width": 134.9853515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW5yDr//2rajw="
@@ -1728,7 +1728,7 @@
 							"containerChangeable": true,
 							"left": 109.67724609375,
 							"top": 250,
-							"width": 102,
+							"width": 190,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGW5yDr//2qjKk="
@@ -1790,11 +1790,11 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 129.67724609375,
+											"left": 135.17724609375,
 											"top": 327,
-											"width": 62,
+											"width": 88,
 											"height": 13,
-											"text": "자전거 대여"
+											"text": "Bicycle Rental"
 										},
 										{
 											"_type": "LabelView",
@@ -1807,7 +1807,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -1824,9 +1824,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 124.67724609375,
+									"left": 130.17724609375,
 									"top": 320,
-									"width": 72,
+									"width": 98.87353515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW5yEBuf3Z+w0="
@@ -1922,7 +1922,7 @@
 							"containerChangeable": true,
 							"left": 109.67724609375,
 							"top": 315,
-							"width": 102,
+							"width": 139,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGW5yEBuf3YuRU="
@@ -1984,11 +1984,11 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 123.67724609375,
+											"left": 150.17724609375,
 											"top": 392,
-											"width": 74,
+											"width": 200,
 											"height": 13,
-											"text": "대여 정보 조회"
+											"text": "View Rented Bicycle Information"
 										},
 										{
 											"_type": "LabelView",
@@ -2001,7 +2001,7 @@
 											"parentStyle": true,
 											"width": 107.63720703125,
 											"height": 13,
-											"text": "(from requirement)"
+											"text": "(from use-case)"
 										},
 										{
 											"_type": "LabelView",
@@ -2018,9 +2018,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 118.67724609375,
+									"left": 145.17724609375,
 									"top": 385,
-									"width": 84.693603515625,
+									"width": 211.3095703125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGW5yEYTP4HGQo="
@@ -2121,7 +2121,7 @@
 							"containerChangeable": true,
 							"left": 101.17724609375,
 							"top": 380,
-							"width": 119,
+							"width": 298,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAGW5yEYTP4G9XA="
@@ -4240,7 +4240,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "회원 가입"
+					"name": "Sign Up"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -4248,7 +4248,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "로그인"
+					"name": "Login"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -4256,7 +4256,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "로그아웃"
+					"name": "Logout"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -4264,7 +4264,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "자전거 등록"
+					"name": "Bicycle Registration"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -4272,7 +4272,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "자전거 대여"
+					"name": "Bicycle Rental"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -4280,7 +4280,98 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "대여 정보 조회"
+					"name": "View Rented Bicycle Information"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGW5ytGJGYhRQA=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "communication",
+			"ownedElements": [
+				{
+					"_type": "UMLCollaboration",
+					"_id": "AAAAAAGW5yuWP2ZcTOE=",
+					"_parent": {
+						"$ref": "AAAAAAGW5ytGJGYhRQA="
+					},
+					"name": "Collaboration1",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "AAAAAAGW5yuWP2Zd/ps=",
+							"_parent": {
+								"$ref": "AAAAAAGW5yuWP2ZcTOE="
+							},
+							"name": "Interaction1",
+							"ownedElements": [
+								{
+									"_type": "UMLCommunicationDiagram",
+									"_id": "AAAAAAGW5yuWP2Zepr8=",
+									"_parent": {
+										"$ref": "AAAAAAGW5yuWP2Zd/ps="
+									},
+									"ownedViews": [
+										{
+											"_type": "UMLFrameView",
+											"_id": "AAAAAAGW5yuWP2ZfCdc=",
+											"_parent": {
+												"$ref": "AAAAAAGW5yuWP2Zepr8="
+											},
+											"model": {
+												"$ref": "AAAAAAGW5yuWP2Zepr8="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGW5yuWP2Zg23g=",
+													"_parent": {
+														"$ref": "AAAAAAGW5yuWP2ZfCdc="
+													},
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": 40.72998046875,
+													"top": 21,
+													"width": 139.43896484375,
+													"height": 13,
+													"text": "CommunicationDiagram"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGW5yuWP2Zh6qA=",
+													"_parent": {
+														"$ref": "AAAAAAGW5yuWP2ZfCdc="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 21,
+													"top": 21,
+													"width": 13.72998046875,
+													"height": 13,
+													"text": "sd"
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 16,
+											"top": 16,
+											"width": 692,
+											"height": 592,
+											"nameLabel": {
+												"$ref": "AAAAAAGW5yuWP2Zg23g="
+											},
+											"frameTypeLabel": {
+												"$ref": "AAAAAAGW5yuWP2Zh6qA="
+											}
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		}
